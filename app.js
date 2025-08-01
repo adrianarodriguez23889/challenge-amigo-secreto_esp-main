@@ -38,7 +38,7 @@ function mostrarLista(){
 //creamos la funciòn para sortear a los amigos
 function sortearAmigo(){
     if (amigos.length === 0){
-        document.getElementById("resultado").innerHTML = <li>No hay amigos para sortear.</li>;
+        document.getElementById("resultado").innerHTML = "<li>No hay amigos para sortear</li>";
         return;
     }
     //generar indice aleatorio
@@ -48,5 +48,5 @@ function sortearAmigo(){
     let amigoSorteado = amigos[indiceAleatorio];
 
     //ganador
-    document.getElementById("resultado").innerHTML = ´<li>El amigo sorteado es: ${amigoSorteado}</li>´;
+  document.getElementById("resultado").innerHTML = `<li>El amigo sorteado es: ${amigoSorteado}</li>`;
 }
