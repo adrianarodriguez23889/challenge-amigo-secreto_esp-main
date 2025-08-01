@@ -5,7 +5,7 @@ function agregarAmigo(){
     //se captura el valor del imput
     let input = document.getElementById("amigo");
     //se eliminan los espacios en blanco
-    let nombre = Input.value.trim();
+    let nombre = input.value.trim();
 
     //vemos que no esté vacío
     if(nombre === ""){
