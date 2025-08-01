@@ -28,4 +28,4 @@ Este proyecto es una pequeña aplicación web que permite a los usuarios:
 ## 🔗 Acceso al Proyecto
 
 Podés acceder al repositorio haciendo clic aquí:  
-👉 [https://github.com/toolsforgroeth/lista-de-amigos](https://github.com/adrianarodriguez23889/challenge-amigo-secreto_esp-main)
+👉 (https://github.com/adrianarodriguez23889/challenge-amigo-secreto_esp-main)
