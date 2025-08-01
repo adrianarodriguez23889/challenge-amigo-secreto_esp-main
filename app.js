@@ -34,3 +34,19 @@ function mostrarLista(){
         lista.appendChild(item);
     }
 }
+
+//creamos la funciòn para sortear a los amigos
+function sortearAmigo(){
+    if (amigos.length === 0){
+        document.getElementById("resultado").innerHTML = <li>No hay amigos para sortear.</li>;
+        return;
+    }
+    //generar indice aleatorio
+    let indiceAleatorio = Math.floor(Math.random()* amigos.length);
+
+    //traer nombre sorteado
+    let amigoSorteado = amigos[indiceAleatorio];
+
+    //ganador
+    document.getElementById("resultado").innerHTML = ´<li>El amigo sorteado es: ${amigoSorteado}</li>´;
+}
